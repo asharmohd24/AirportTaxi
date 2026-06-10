@@ -6,8 +6,8 @@ export const site = {
   email: "info@busrentalbelgium.com",
   emailHref: "mailto:info@busrentalbelgium.com",
   whatsapp: "https://wa.me/442038343211",
-  address: "Rue d’Arenberg 3, 1000 Bruxelles, Belgium",
-  addressDisplay: "Rue d’Arenberg 3,\n1000 Bruxelles, Belgium",
+  address: "1 Tilley Rd, Feltham TW13 4GH, UK",
+  addressDisplay: "1 Tilley Rd,\n Feltham TW13 4GH, UK",
   url: "https://airporttaxiheathrow.com",
   logo: "/images/logo2.png",
   logoAlt: "Airport Taxi Heathrow - Heathrow airport transfer specialists",
@@ -382,8 +382,8 @@ export const howItWorks = {
   steps: [
     {
       iconName: "MapPin",
-      title: "Tell Us Your Heathrow Route",
-      desc: "Enter your Heathrow terminal or pickup address and your destination. We cover all postcodes across London and the South East.",
+      title: "Set Your Terminal & Drop-off",
+      desc: "Pick any Heathrow terminal or address as your starting point. Tell us your destination and we plot the fastest route to your door.",
       color: "text-blue-600",
       bgColor: "bg-blue-100",
       details: [
@@ -394,8 +394,8 @@ export const howItWorks = {
     },
     {
       iconName: "Calendar",
-      title: "Select Your Flight Time",
-      desc: "Tell us your flight arrival or departure time. We will monitor your flight and adjust the pickup automatically.",
+      title: "Share Your Flight, We Watch the Gate",
+      desc: "Give us your flight number and we handle the rest. Live tracking means your driver adjusts automatically for any delay or early landing.",
       color: "text-green-600",
       bgColor: "bg-green-100",
       details: [
@@ -406,8 +406,8 @@ export const howItWorks = {
     },
     {
       iconName: "Bus",
-      title: "Meet Your Driver at Arrivals",
-      desc: "Your professional driver will meet you in the arrivals hall with a name board. Then relax on your journey.",
+      title: "Walk Out, Spot Your Name, Ride Easy",
+      desc: "Your driver stands in arrivals with your name board and takes care of your bags. Just sit back and enjoy the ride to your destination.",
       color: "text-purple-600",
       bgColor: "bg-purple-100",
       details: [
@@ -1451,7 +1451,7 @@ export const contactPage = {
       iconName: "MapPin",
       title: "Visit Us",
       description: "Our main office near Heathrow",
-      details: "Rue d’Arenberg 3, 1000 Bruxelles, Belgium",
+      details: site.address,
       action: "#map",
       color: "text-orange-600",
       bgColor: "bg-orange-100",
