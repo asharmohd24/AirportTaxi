@@ -1,0 +1,89 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+build/
+dist/
+.parcel-cache/ # If using Parcel bundler
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Next.js static files
+*.next
+.next/cache/
+.next/static/
+.next/server/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Vim swap files
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+.cache/
+*.tmp
+*.temp
+
+# Yarn / npm / pnpm specific
+.pnp/
+.pnp.js
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Storybook build
+.out/
+storybook-static/
+
+# ESLint cache
+.eslintcache
+
+# Testing
+jest.config.js
+jest.setup.js
+test-results/
+*.snap
+
+# Misc
+*.bak
+*.backup
+*.orig

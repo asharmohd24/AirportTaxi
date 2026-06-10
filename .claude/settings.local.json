@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\ashar\\\\Desktop\\\\Work\\\\Airport Taxi\\\\Airport Taxi Heathrow\\\\AirportTaxiHeathrow\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Select-Object -Skip 1)",
+      "Bash(node -e ' *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(ls -la .env*)",
+      "Bash(cat .env.local)",
+      "Bash(Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue)",
+      "Bash(mv \"images/Frame.png\" \"unused images/\")",
+      "Bash(mv \"images/Vector.png\" \"unused images/\")",
+      "Bash(mv \"images/about-us.png\" \"unused images/\")",
+      "Bash(mv \"images/avatar1.png\" \"unused images/\")",
+      "Bash(mv \"images/avatar2.png\" \"unused images/\")"
+    ]
+  }
+}
