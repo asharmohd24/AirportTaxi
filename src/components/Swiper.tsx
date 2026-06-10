@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { site } from "../data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -37,7 +38,7 @@ export default function SwiperComponent({ gallery }: CategoriesCarouselProps) {
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src={src.image}
-                alt={`Belgium Buses Shuttle Service Image ${idx + 1}`}
+                alt={`${site.name} Service Image ${idx + 1}`}
                 width={1600}                // ✅ increased resolution
                 height={900}
                 quality={100}               // ✅ keeps full clarity

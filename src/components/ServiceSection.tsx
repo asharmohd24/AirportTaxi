@@ -12,7 +12,7 @@ import {
   Home,
   ChevronDown,
 } from "lucide-react";
-import { services as servicesData } from "../data";
+import { services as servicesData, site } from "../data";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Building2,
@@ -163,7 +163,7 @@ export default function ServicesSection() {
               <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden shadow-lg group">
                 <Image
                   src={current.image}
-                  alt={`${current.title} - Belgium Buses`}
+                  alt={`${current.title} - ${site.name}`}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   quality={100}

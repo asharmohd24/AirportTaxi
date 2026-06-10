@@ -1,4 +1,5 @@
 import React from "react";
+import { site } from "../data";
 
 interface MapProps {
   height?: string;
@@ -8,7 +9,7 @@ const UKBusRentalsMap: React.FC<MapProps> = ({ height = "400px" }) => {
   return (
     <div style={{ width: "100%", height }}>
       <iframe
-        title="Belgium Buses Location"
+        title={`${site.name} - Location`}
         width="100%"
         height="100%"
         style={{ border: 0 }}

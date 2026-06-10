@@ -15,7 +15,9 @@
       "Bash(mv \"images/Vector.png\" \"unused images/\")",
       "Bash(mv \"images/about-us.png\" \"unused images/\")",
       "Bash(mv \"images/avatar1.png\" \"unused images/\")",
-      "Bash(mv \"images/avatar2.png\" \"unused images/\")"
+      "Bash(mv \"images/avatar2.png\" \"unused images/\")",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }

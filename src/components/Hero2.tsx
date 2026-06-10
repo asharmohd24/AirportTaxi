@@ -36,7 +36,7 @@ export default function ServicesHero({ title, span, subTitle, image }: Service) 
         <div className="flex-1 flex justify-center lg:justify-end">
           <Image
             src={image}
-            alt={`${title} ${span} | Belgium Buses`}
+            alt={`${title} ${span} | ${site.name}`}
             width={1600}              // ✅ Increased resolution
             height={900}              // ✅ High enough for retina displays
             quality={100}             // ✅ Full clarity

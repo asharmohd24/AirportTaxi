@@ -225,7 +225,7 @@ export default function Transfer() {
                   >
                     <Image
                       src={img.src}
-                      alt={`Private transfer service ${index + 1} in Belgium - Comfortable and reliable`}
+                      alt={`Private transfer service ${index + 1} - ${site.name}`}
                       width={600}
                       height={400}
                       className="w-full h-auto"

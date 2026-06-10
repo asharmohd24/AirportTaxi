@@ -1,4 +1,5 @@
 import React from "react";
+import { site } from "../data";
 
 interface GoogleMapsProps {
   height?: string;
@@ -8,7 +9,7 @@ const GoogleMaps: React.FC<GoogleMapsProps> = ({ height = "400px" }) => {
   return (
     <div style={{ width: "100%", height }}>
       <iframe
-        title="Belgium Buses - Brussels Office Location"
+        title={`${site.name} - Office Location`}
         width="100%"
         height="100%"
         style={{ border: 0, borderRadius: "8px" }}

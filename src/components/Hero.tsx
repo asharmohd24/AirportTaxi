@@ -159,7 +159,7 @@ export default function Hero() {
             onSubmit={handleSubmit}
             className="bg-white/80 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20 p-8 hover:shadow-2xl transition-all duration-500"
           >
-            <input type="hidden" name="_subject" value="New Coach Hire Quote Request - Belgium Buses" />
+            <input type="hidden" name="_subject" value={`New Quote Request - ${site.name}`} />
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 items-end">
               {/* Pickup Location */}

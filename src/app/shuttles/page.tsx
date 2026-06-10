@@ -225,7 +225,7 @@ export default function Shuttles() {
                   >
                     <Image
                       src={img.src}
-                      alt={`Scheduled shuttle service ${index + 1} - Group transport in Belgium`}
+                      alt={`Scheduled shuttle service ${index + 1} - ${site.name}`}
                       width={600}
                       height={400}
                       className="w-full h-auto"

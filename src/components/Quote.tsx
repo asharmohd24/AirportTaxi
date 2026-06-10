@@ -16,7 +16,7 @@ import {
   Search,
   Clock,
 } from "lucide-react";
-import { quoteForm as qfContent } from "../data";
+import { quoteForm as qfContent, site } from "../data";
 
 // reCAPTCHA type declaration
 declare global {
@@ -921,7 +921,7 @@ export default function ContactForm({ onSuccess }: ContactFormProps) {
       formDataToSend.append("form_type", "quote_form");
       formDataToSend.append(
         "_subject",
-        "New Quote Request - Belgium Bus Rental"
+        `New Quote Request - ${site.name}`
       );
 
       const response = await fetch("/contact.php", {
