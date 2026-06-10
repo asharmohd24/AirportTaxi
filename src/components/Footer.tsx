@@ -18,7 +18,7 @@ export default function Footer() {
               {/* Logo */}
               <Link href="/" className="flex flex-col justify-center md:justify-start items-center md:items-start gap-2">
                 <Image src={site.logo} width={180} height={58} alt={footerData.logoAlt} />
-                <span className="text-base font-bold">
+                <span className="text-2xl font-bold">
                   {(() => {
                     const parts = site.name.split(" ");
                     const city = parts[parts.length - 1];
